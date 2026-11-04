@@ -1,0 +1,16 @@
+{
+  "decision": "unchanged_no_human_trial_data",
+  "recordedAt": "2026-10-31",
+  "baselineThresholds": {
+    "phoneMs": 2000,
+    "secondFaceMs": 1500,
+    "mismatchMs": 3000,
+    "noFaceMs": 3000,
+    "cooldownMs": 30000,
+    "maxSampleGapMs": 1500,
+    "identityDistance": 0.55,
+    "objectConfidence": 0.55
+  },
+  "changes": [],
+  "reason": "Do not adjust defaults without reviewed participant trial data. Existing defaults are not claimed calibrated."
+}

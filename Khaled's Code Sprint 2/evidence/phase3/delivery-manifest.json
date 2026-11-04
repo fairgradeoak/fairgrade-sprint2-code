@@ -1,0 +1,776 @@
+{
+  "preparedAt": "2026-10-31",
+  "release": "0.3.0",
+  "files": [
+    {
+      "path": "START-HERE.md",
+      "bytes": 1134,
+      "sha256": "7487a17fb5ea6fe66558e14ff88004ee7ae4d766a66ddcbebb5abcf03db31fb2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1327,
+      "sha256": "30a196812ccd82dfff3e7673816d477eeb1b5ad0164392ca093c7ecb7c77ffae"
+    },
+    {
+      "path": "Ahmed_Code/ai_response.py",
+      "bytes": 1978,
+      "sha256": "239dab846eee548d27dc412d4f7dd3b9d265cb58edfd32d6af7966611530eefd"
+    },
+    {
+      "path": "Ahmed_Code/submission.py",
+      "bytes": 1026,
+      "sha256": "e682569e17dbf645999ca082e30ea7866c1c739a057fad8855258b58f85d60cf"
+    },
+    {
+      "path": "Ahmed_Code/README.md",
+      "bytes": 1543,
+      "sha256": "167decb13eab21a0ef234c41ae590071a59e00432ae7876c17aa604844c273de"
+    },
+    {
+      "path": "Ahmed_Code/question.py",
+      "bytes": 852,
+      "sha256": "a561e544573a30103b7839e9730d72b936400c0bf6d19e85a3f5ea5adbf45a98"
+    },
+    {
+      "path": "Ahmed_Code/prompt_generator.py",
+      "bytes": 3778,
+      "sha256": "790bbcb617ac4a4fc3443ae52e62885b308302f78a0c76db6fbd392638008908"
+    },
+    {
+      "path": "Ahmed_Code/grader.py",
+      "bytes": 1650,
+      "sha256": "5ee8eb19f2fc867bc3efe6dc150c4dbb30cecb2db362cf90029164d6baa873eb"
+    },
+    {
+      "path": "Ahmed_Code/text_grader.py",
+      "bytes": 1654,
+      "sha256": "834f2902828a3e65c962f926a18580cb69cb4f096599c43e6961b92be39af201"
+    },
+    {
+      "path": "Ahmed_Code/coding_question.py",
+      "bytes": 452,
+      "sha256": "1325689b0f0dd340eb70d9913412d18dc674dbc6e8c7ffba59407fe583bdcdc5"
+    },
+    {
+      "path": "Ahmed_Code/gemini_client.py",
+      "bytes": 2146,
+      "sha256": "b6c4bb73494c4b7ccd7f5ee645a1fe99102b8c52876e9a8c7618ad0aeef5c6b6"
+    },
+    {
+      "path": "Omar_Code/schema.sql",
+      "bytes": 5789,
+      "sha256": "caf9c3ab91d44524b7d8f106543bbabf4bd7189f3a145830fb7998489b4e341d"
+    },
+    {
+      "path": "Omar_Code/README.md",
+      "bytes": 1775,
+      "sha256": "c17b34e7bb26bf091e9f9214b2df47e9f9e8769f10e428fc570ca9088e06e62a"
+    },
+    {
+      "path": "Omar_Code/CreateExamLambdaFunctionSprint1.py",
+      "bytes": 14119,
+      "sha256": "53c69a0c8a375cbb982b6c713fdf8e8d16f57a291f46571e8afc2b6c0d6cf224"
+    },
+    {
+      "path": "Omar_Code/SubmitReviewLambdaFunctionSprint1.py",
+      "bytes": 1627,
+      "sha256": "0886c1b921f9e61df6cea5ec77907820c76cd2b689f4f7c0f0f155c1a3078293"
+    },
+    {
+      "path": "Omar_Code/GetReviewQueueLambdaFunctionSprint1.py",
+      "bytes": 1622,
+      "sha256": "d5d21b2c623420abc769d9bf91364128c900ec9526d2a85840a9ba6750135055"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/.gitignore",
+      "bytes": 174,
+      "sha256": "4c72880de4a74d14a30efff81095a7344e76d4eb47842a359f0399d7aad25893"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/package.json",
+      "bytes": 1039,
+      "sha256": "42c304b0a8f21ca2aa5fa8396fb0f79a329aac424ae5b5717cbc34869447ec0a"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/README.md",
+      "bytes": 5165,
+      "sha256": "b2d5addc6b70547db56a855b54cb8393d89088bae0a62c336c1460d55c4e0cd5"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/package-lock.json",
+      "bytes": 2175,
+      "sha256": "7623cdbbf28c33cd8ee62136b465093cec021baf9a5cf0167df52b08a2f898cf"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/START_FAIRGRADE.cmd",
+      "bytes": 194,
+      "sha256": "3ca1c5f1d5e65aab3c97043daa39e7f4910e4ef77f50b3b5c79027e232d53e04"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/tests/pglite-bridge.mjs",
+      "bytes": 583,
+      "sha256": "fa7fe1538997a21212b54925fa6c00d027db75e79e3e2fa39590b8234129a332"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/tests/test_backend.py",
+      "bytes": 10577,
+      "sha256": "4f8e0ff840e6e0a16525de6fb923317ab213f7c623db53abf7d058febe22701f"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/tests/auth.test.mjs",
+      "bytes": 2582,
+      "sha256": "b7bfc2c6cf828b31ac56e44201ae14cd266452203455cb70e6dc3c8a23084ff3"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/tests/server.test.mjs",
+      "bytes": 3527,
+      "sha256": "81122d354354257ff67f115e3acef858ea059f7b2a9cd3ea2bb0b540a0ff99f9"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/tests/core.test.mjs",
+      "bytes": 10528,
+      "sha256": "6c59c6de981d66e937bb0f8c3d2b2349b4768a81313a237fc9ec2afc6c317f45"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/tests/test_evaluation.py",
+      "bytes": 1590,
+      "sha256": "99ebc3d0505d6ca6ad767dde2bdf77fe2680ba4ac1da938ea1b520e0b9c0b2e0"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/infra/schema.sql",
+      "bytes": 3172,
+      "sha256": "a18bfd7a929da15799abfb3e00c4f8a029b09fc21f452b1b0bd27338bad6ba3f"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/infra/terraform.tfvars.example",
+      "bytes": 312,
+      "sha256": "3af8f0f202cfdeb05a199456c36775b85467f3bb90671ec147c5dc52705f3b20"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/infra/storage.tf",
+      "bytes": 2676,
+      "sha256": "a83bc135e48d94b87031f325d4785469f3ce085bc2723cf0b13baee9fa240ccf"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/infra/retention-approval.example.json",
+      "bytes": 209,
+      "sha256": "1b0930ec00e916e52cfa189672d42daf8056b20c3a6c4edf59434a0634657e0c"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/third_party/MediaPipe-Apache-2.0.txt",
+      "bytes": 12331,
+      "sha256": "8707eef0533987efc5b155d64761eeb6e20793f50b9bd1a68dad1cf4719d0ed8"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/third_party/NOTICE.md",
+      "bytes": 737,
+      "sha256": "e17f09b445643034cc6eabba54edc8d83d1d6c6b5800eb8716a0f9208101e42f"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/third_party/TensorFlow-Apache-2.0.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/third_party/Ultralytics-AGPL-3.0.txt",
+      "bytes": 34523,
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/third_party/face-api-MIT.txt",
+      "bytes": 1072,
+      "sha256": "d5480b4d4e46880107a56db666697ec3e90def81a8fc829e530b1c291e3172a5"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/review.html",
+      "bytes": 845,
+      "sha256": "59705e0fe69beb14c61b5159b92bee1a3c54f8386d47990f804db9be6844e8e2"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/config.live.example.json",
+      "bytes": 682,
+      "sha256": "e93639d943b775e9f5c265da071f0edf18d3d2bc1b6e3ea252b75d89c9f9c0b1"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/index.html",
+      "bytes": 2248,
+      "sha256": "de3c7334e016cbff79b4d7dd981e587e656bd3b3634a1b2632c867301ba53232"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/styles.css",
+      "bytes": 4398,
+      "sha256": "005e63dad13a5e088a572afd79f6c163d50b83820d888ed9beac246c524e3574"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/config.json",
+      "bytes": 682,
+      "sha256": "e93639d943b775e9f5c265da071f0edf18d3d2bc1b6e3ea252b75d89c9f9c0b1"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/review.mjs",
+      "bytes": 586,
+      "sha256": "bc93c9a6ef0ad13ab08b888846f1f63c5047ab70df30b8949eb4b0f7200bcfb4"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/module.css",
+      "bytes": 899,
+      "sha256": "47c2c0379c05b4baf845d2eae4119fbe1a1d61ca33ae99b0005e1ca3918d8a2f"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/proctoring-module.mjs",
+      "bytes": 20747,
+      "sha256": "e090ae7ffc161422142c173062a1b29d76c5de5a20a326e4e90ffe0636469b04"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/app.mjs",
+      "bytes": 1969,
+      "sha256": "24ae69399d2e57790a2ebd56b5f5163b554fbf391746e3235988d93797fc3ad7"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/scripts/summarize.py",
+      "bytes": 6302,
+      "sha256": "644dcdeb229502896b77f28cdc21bd339eaa474e39eb9ee3f55bea16b9bc693b"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/scripts/live-ui-test.mjs",
+      "bytes": 3317,
+      "sha256": "145b1703d3f7557a789672c1c0fcfe2ebaed83790ea53d1290a9f3a8238c9a78"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/scripts/package-backend.py",
+      "bytes": 133,
+      "sha256": "0465dc3bb97c733c251f1a0ba2abe46e213b93e60dca46517b2df33d57fbcd5c"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/scripts/model-smoke.mjs",
+      "bytes": 3100,
+      "sha256": "c568ffe35043ddce480b133043b0ec507d4c6bf63fa8a9b6b08b13cbed370b21"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/scripts/verify-models.mjs",
+      "bytes": 620,
+      "sha256": "0fce94369f0bda52b06fa912a520c3f4247803626a07cbc5e212aba21fbbb2fd"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/scripts/evaluate.mjs",
+      "bytes": 451,
+      "sha256": "4b8cc3c2c1619243b3a0c694d5f1dd7073916dc7f00b848c24e0dfddace79d43"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/scripts/export_yolo.py",
+      "bytes": 312,
+      "sha256": "667f7b5b558b6f4203e34193b5b81853d397c3502698edbe5acb8f17d4d10b75"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/scripts/module-test.mjs",
+      "bytes": 11381,
+      "sha256": "ee9bfd463c248d8ae0e44fcbcd4a297aa7d4b33c4675a8ea34c7eb2abca98ee7"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/scripts/create-architecture.py",
+      "bytes": 3270,
+      "sha256": "c34ba1eafc96a29bcd1eb30044fdcb1b58c59e3a50657466a1a9c1dad7cf613f"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/scripts/setup-models.mjs",
+      "bytes": 4503,
+      "sha256": "23bc3bccdd534bbaeb54213bb176333ee68beab8c7975b81f602884a70a95c21"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/scripts/check.mjs",
+      "bytes": 766,
+      "sha256": "20470b8dce291d3afcb386cebef602104d82f2a28e3792015765f40c5faca781"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/scripts/create-sprint3-summary.py",
+      "bytes": 4615,
+      "sha256": "374831d5d3c3b998a589fbd2bd4e2bc7a9bce943ecb1731b1ac0dd8e33644f86"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/scripts/create-handoff-pdf.py",
+      "bytes": 201,
+      "sha256": "4eef38a5274ff81c934e08c1f529a4cf36d04a56bab2e7fda99f4bfc9f43f94d"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/scripts/import-diagnostics.py",
+      "bytes": 1479,
+      "sha256": "036a9bf06ae88436c4c5031e6fad0f622e60cbf65c9e5447035a1174b83fe7c4"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/scripts/browser-test.mjs",
+      "bytes": 4350,
+      "sha256": "2090851055bc05cda9a0254e5f8b3dce12c9e1b02754cd39b5a673454ee6faac"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/scripts/soak-test.mjs",
+      "bytes": 2399,
+      "sha256": "9c8201e80d6b7c4f47dd9a0a406aef5547af915ed91677a7a6e811dd2ef1e4a8"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/scripts/aws-smoke.mjs",
+      "bytes": 3413,
+      "sha256": "ad6dbc9a416839f0523a17404a7eed8b1158594387b74917cb7a685005b3bef1"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/evaluation/phase3-summary.json",
+      "bytes": 4946,
+      "sha256": "4359cf6464a5d4aceb741de40af5872ad879d9bd4747ad2277637c923f66d250"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/evaluation/results-summary.json",
+      "bytes": 160,
+      "sha256": "93daa51c12d456d409afcf0dac31a7299d5cede7c121c2ff3739935372841ee1"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/evaluation/results.json",
+      "bytes": 1299,
+      "sha256": "ea1c7c784b5f9bcea165a3e65f41e1e80a713648c028a7e0da1586010f93c2b5"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/evaluation/tuning-log.json",
+      "bytes": 458,
+      "sha256": "7d597df5a95971013aed1c1037e4f86b553f5d333bb1caa771aff3f7535ad964"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/evaluation/trials.json",
+      "bytes": 56,
+      "sha256": "5b385401ef71a114c6a8e870164f43c68f288573ec799712857513d50d39fb1c"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/evaluation/phase2-summary.json",
+      "bytes": 4946,
+      "sha256": "4359cf6464a5d4aceb741de40af5872ad879d9bd4747ad2277637c923f66d250"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/evaluation/requirements.txt",
+      "bytes": 28,
+      "sha256": "0b2d39e10f62040375c2948fbe94b71ad2a685ef451a601e87ffd1732a478936"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/server/server.mjs",
+      "bytes": 9495,
+      "sha256": "fa43f305fca523921ae84b22fd37098a1a1018a68a6e7087598008532b2b3fd0"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/evidence/unit-test-results.txt",
+      "bytes": 1464,
+      "sha256": "3ee828d820ee447d3e873864527fe23ff6212f174dcbd006e8d3bbe367b800f3"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/evidence/synthetic-sample.webm",
+      "bytes": 141439,
+      "sha256": "29726f907ee5a05a06a65f9c3ccc2f52edc65bcec416b6c5d565b9a7f5840f60"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/evidence/browser-report.json",
+      "bytes": 2408,
+      "sha256": "4a4b5c0a36a588bbde64caee4569694c0b6796fa38e096cdc18a9697be59d050"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/evidence/review.png",
+      "bytes": 63513,
+      "sha256": "96fe201a6b1685ecd6ec234c0740650f6ecdffb85c8998321097417cbcac8268"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/evidence/student.png",
+      "bytes": 118788,
+      "sha256": "71f819d635642ee2e9c26cb98273fde33c11e2090e8bb26d0d22df30fdc485f9"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/docs/BACKEND-CONTRACT.md",
+      "bytes": 5100,
+      "sha256": "9e55df0a248829ff12bbac9ae7f2d69ea96e59cfa8f1a510808f4370b21a76a9"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/docs/KHALED-GUIDE.md",
+      "bytes": 8939,
+      "sha256": "72efe85ffd85df707ca9db379bec649ab0377afe3269908592d1c44bcbb77536"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/docs/MODELS.md",
+      "bytes": 3313,
+      "sha256": "b9845008469e5c28be8c458b2abd55240ec7111a1ccc89a7c163feb480f02305"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/docs/SPRINT3-STATUS.md",
+      "bytes": 2183,
+      "sha256": "10796e15c1ff0b840e88a1eec57b3770d88f1a8625d2ca7a2e74de43d8a7c821"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/docs/LIMITATIONS.md",
+      "bytes": 1433,
+      "sha256": "65f55be360995f6fbeeee53e2cfb19021d9fe891cc40b8b0c436313c406fb4a7"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/docs/FILE-GUIDE.md",
+      "bytes": 24133,
+      "sha256": "d6f2aeeb08f5b1e3840c61388510d6bc4b332c9b8ec24884ef4e957f460d66d2"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/docs/SPRINT3-VALIDATION.md",
+      "bytes": 1504,
+      "sha256": "569db38ea1c8f020135ea1869f274c98e361c56baa6346ecaa1dcec805d2a5f0"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/docs/PARTICIPANT-CONSENT.md",
+      "bytes": 1849,
+      "sha256": "f2f5999dc5556963bde06d85927f90b29810e7825818389f4f1f9dc4eaac0972"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/docs/TEAM-HANDOFF.md",
+      "bytes": 1529,
+      "sha256": "91a8f52cf7c309253d60245b2e927fffe0f88b2cd1492a0c0a6a6a9bdc15ee69"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/docs/DEPLOYMENT.md",
+      "bytes": 1039,
+      "sha256": "953527870c0ba5ef5437505a30eb3e8bc473600db65d52ef19c0f3a5b06c6dad"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/docs/VALIDATION.md",
+      "bytes": 3766,
+      "sha256": "2652d105b1c84b847c8cfa62b070da348ef1f7fb58d9f74d3e96b6645c1b7fd6"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/docs/TRIAL-PROTOCOL.md",
+      "bytes": 9301,
+      "sha256": "152d575dfcdc73123a4b258fd39a74b9b19dd05b0ab924bdc5dcbc2e082feb7a"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/docs/EMBEDDING.md",
+      "bytes": 6309,
+      "sha256": "c9277350799aeeb576bd04083de8dcd37662be49898592091b023a032c3e6817"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/docs/EVALUATION.md",
+      "bytes": 5681,
+      "sha256": "0f0b34b08c1f84ff38652f07357d3e35a1200bf1a8cd0b2856eacc2728436d22"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/docs/LIVE-ACCEPTANCE.md",
+      "bytes": 3174,
+      "sha256": "a43846d5d263763805b72de07236ccdcb72c743870b0321d9a71b441035517d6"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/docs/STATUS.md",
+      "bytes": 5942,
+      "sha256": "530b22ea921e60a2eba4e2cae5dbdbc0c5aed4062ff6acb4c0d310c5e09756c3"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/docs/PHASE2-STATUS.md",
+      "bytes": 3897,
+      "sha256": "788c04a00831444cee0784646e967299ea31be6d146c07b07010295ea3ad07d4"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/models/face_landmarker.task",
+      "bytes": 3758596,
+      "sha256": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/models/face_detector.tflite",
+      "bytes": 229746,
+      "sha256": "b4578f35940bf5a1a655214a1cce5cab13eba73c1297cd78e1a04c2380b0152f"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/models/provenance.json",
+      "bytes": 6769,
+      "sha256": "4bc4f8f177162372e752edab2dd5f1cb614c306217407e4f7d3e1af222312876"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/workers/object-worker.js",
+      "bytes": 2215,
+      "sha256": "065a7b2453e04b5fccc301adc3d0c2191ad0c6414b7c683bdc19bed994b2ee9b"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/workers/face-worker.mjs",
+      "bytes": 1646,
+      "sha256": "eb995e870c2fd4114b81222a54823c9abce3d2ac2387de423714c77c86f7e585"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/vendor/tf.min.js",
+      "bytes": 1469843,
+      "sha256": "300dfae273d20b4046f46a06d735688f03675a807561e9bcb5f664eb2f3d2831"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/vendor/vision_bundle.mjs",
+      "bytes": 137735,
+      "sha256": "40f4123dfcd75cfa58add046919cc6f52fde66f009ff582997c09ba54c6ba27c"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/vendor/face-api.min.js",
+      "bytes": 663829,
+      "sha256": "5d66ec95338d7fcc365ce15481b8599baf4b6e22c9a624b76d4ca821a669a659"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/core/triggers.mjs",
+      "bytes": 1857,
+      "sha256": "da2c12f07cdcbbee64fffde4de5b7e1f3efc668280a34a940ec9bf3942bcc339"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/core/api.mjs",
+      "bytes": 7276,
+      "sha256": "f16309b15d61755a72e41fb8cca936109ba696a1cb09223c91f0d8614711d0da"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/core/yolo.mjs",
+      "bytes": 2205,
+      "sha256": "3354ce528c9d32ab33f1a0ca89fd095f8fae07be775d00763dcad391d553731f"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/core/recorder.mjs",
+      "bytes": 7304,
+      "sha256": "ca56d23c7df3546250997aa269d3b5bc63945dc5d9df55037f224578dee13ac9"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/core/window.mjs",
+      "bytes": 1609,
+      "sha256": "c58a7015e4c2514bc9b2867270988a7e1475c8124f46b85772b99dcbc0aa20cc"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/core/ids.mjs",
+      "bytes": 502,
+      "sha256": "d2d000705cf24c79aeeef60fc728d3e6f92e387d0b050bdb3a0484be4c75f649"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/core/detectors.mjs",
+      "bytes": 4895,
+      "sha256": "df960e9d85d917574b4a2f9dc54ca3d2e54966dfd6cfdbfb0a02824fad91e9c0"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/core/auth.mjs",
+      "bytes": 5325,
+      "sha256": "f5776221f37754494d8f6e4f0a81ca75ee728ce9d38797e2bc83184ff85d445c"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/core/telemetry.mjs",
+      "bytes": 2646,
+      "sha256": "edcc004d68a86de7712bf67b73577f9cc982a64c7ca5b084d042f19971fa8717"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/models/yolov8n/model.json",
+      "bytes": 144462,
+      "sha256": "91cca72c6b94911ba267fa09de6b8d53613248b456e9b1ed0e8c03eec603b1df"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/models/yolov8n/group1-shard3of4.bin",
+      "bytes": 4194304,
+      "sha256": "9ce29aaca944b9755c2fa54f4fc7e5428f987f25b11f103a0ee9c814270c116c"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/models/yolov8n/group1-shard4of4.bin",
+      "bytes": 194096,
+      "sha256": "998d3d7df768cae9b45f2e303a7b61d414026f75a8861f219347dffe0ef1582c"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/models/yolov8n/group1-shard2of4.bin",
+      "bytes": 4194304,
+      "sha256": "1683261fe150b3004c21aaa483d1641c43fb8a1bd57a832b665986e92e532fc2"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/models/yolov8n/group1-shard1of4.bin",
+      "bytes": 4194304,
+      "sha256": "b09dad14420c388241471b521cbfeb4d44a20dafc551ccfeffa256c6d54d848f"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/models/identity/tiny_face_detector_model-shard1",
+      "bytes": 193321,
+      "sha256": "b7503ce7df31039b1c43316a9b865cab6a70dd748cc602d3fa28b551503c3871"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/models/identity/face_recognition_model-shard2",
+      "bytes": 2249728,
+      "sha256": "69350fdecd845c532e44dd8f7d0521c773505ef46b87cc34f46640a0cc334ecc"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/models/identity/face_landmark_68_tiny_model-shard1",
+      "bytes": 77224,
+      "sha256": "b98e9f2f7da76f8a6dda9741a36ed485b224b889d552de2b2c1bb16217f67bfc"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/models/identity/face_recognition_model-weights_manifest.json",
+      "bytes": 18303,
+      "sha256": "6619f4126f845c1f7857f39cbd79565f375734f46e0dd25d9602f8dc21cda9f5"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/models/identity/face_landmark_68_tiny_model-weights_manifest.json",
+      "bytes": 4441,
+      "sha256": "3c63b8984302c187b218d9ef5aa149ed8c2c7fa3fe54db078614692bc48d153c"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/models/identity/tiny_face_detector_model-weights_manifest.json",
+      "bytes": 2953,
+      "sha256": "14c60659a31b6b7b1320077171b8f8adcb24ef0e62dde62ce603bcb49a1b49b5"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/models/identity/face_recognition_model-shard1",
+      "bytes": 4194304,
+      "sha256": "412566a2b8d814d84c60b8055ec5d3b3b2328ef7cd7853384e03ec3db7b053d8"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/vendor/mediapipe-wasm/vision_wasm_nosimd_internal.js",
+      "bytes": 204137,
+      "sha256": "927def7b465c51b86e4b3060f93646aca4e27121f4b8fc0483786e407ea9cf1f"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/vendor/mediapipe-wasm/vision_wasm_internal.wasm",
+      "bytes": 9574032,
+      "sha256": "f00ec4731faa23b3e714d00e88d4d10e2df5c0a427d3a2b4ae6e3526fdd14ef7"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/vendor/mediapipe-wasm/vision_wasm_internal.js",
+      "bytes": 204284,
+      "sha256": "4a97e2520ba506c680ecd6ba6acfb146888afa0e2746d57f205352bc6ebb82eb"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/public/vendor/mediapipe-wasm/vision_wasm_nosimd_internal.wasm",
+      "bytes": 9448638,
+      "sha256": "3821ea9b1f7fb8c549ef2a064ef5c85750bf375c545a49fd6eea0df44a95f1f4"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/backend/proctoring/handler.py",
+      "bytes": 17105,
+      "sha256": "fd2a3f463aed4c96e69b468c4c043a33e0bd76ef8078144a5b8794e0fc955bbf"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/backend/proctoring/requirements.txt",
+      "bytes": 31,
+      "sha256": "1e5d6e2e791dd188ac432ae3fd9c21848b1a30e8bae4bcabfbbd6181083f5e95"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/evidence/live/status.json",
+      "bytes": 588,
+      "sha256": "de06c3c8fd609a44e8fcbad5d7cf1404108ecbdd72472f5005b84aabfaf0a334"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/evidence/historical/FairGrade-Khaled-Phase2-Handoff-SUPERSEDED.pdf",
+      "bytes": 47810,
+      "sha256": "efbf4b0417526d5823e76568c8a475fcaec291ddf4903245a1abbea32e09a884"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/evidence/phase3/model-integrity.txt",
+      "bytes": 54,
+      "sha256": "2409b68325d484fe16d3deb2a97da66a4d81469996bee52dfd445bb4ecd40b9a"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/evidence/phase3/unit-test-results.txt",
+      "bytes": 2228,
+      "sha256": "e184c44d0dc39fb0702321f8afcad39b1fb8ee6aeeeb66e4da4f2d9e588c9cea"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/evidence/phase3/python-test-results.txt",
+      "bytes": 99,
+      "sha256": "191ed85993246ff250367e139cc35bb5c16bb5f33798e3d3a8d8105fec035122"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/evidence/phase3/module-report.json",
+      "bytes": 2217,
+      "sha256": "21f32aac8b6b75b549d7b8a8b966281d498862da12d7d1c4302564fc1819da5a"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/evidence/phase3/browser-report.json",
+      "bytes": 2660,
+      "sha256": "2d381d969caa5c09c199613f25a247f29af1fe0493e90583a9591227586a8b4e"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/evidence/phase3/syntax-check.txt",
+      "bytes": 197,
+      "sha256": "17647adb2ad5caa6b526d86d2ba84f1c1b8b80f12e2848ed3eb1ab4169f37445"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/evidence/phase3/live-ui-report.json",
+      "bytes": 388,
+      "sha256": "61ffaec7d8ec10892108fcb97bb3fe7a88190e044fa581b6bad49a244bc4d502"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/evidence/phase3/review-page.png",
+      "bytes": 121976,
+      "sha256": "ffc16bf440093867dedad14adddc4065d8fc9c9ff23a9f07d8f72c34e56c34f9"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/evidence/phase3/consent-screen.png",
+      "bytes": 147496,
+      "sha256": "24a742a5a1c3a28299c70d66e5b6c0111741165dadb0e3fe0452081613ecd3a0"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/evidence/phase3/model-smoke.json",
+      "bytes": 2428,
+      "sha256": "ed8c7917ec1ae6f1400b69aaf4aa294c88b4977e1277b6f4d3c0ab205f814f94"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/evidence/phase3/verification-summary.json",
+      "bytes": 732,
+      "sha256": "b228f5ec1f7be2e4ccd66c2d8d3b945d66785f7683fd94555ac0f7529d69e922"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/evidence/phase2/model-integrity.txt",
+      "bytes": 54,
+      "sha256": "2409b68325d484fe16d3deb2a97da66a4d81469996bee52dfd445bb4ecd40b9a"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/evidence/phase2/soak-report.json",
+      "bytes": 151613,
+      "sha256": "dd2327968967c37bd15d308f94002f2b242a8ea409ada98496bc87fd2a3eaebf"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/evidence/phase2/unit-test-results.txt",
+      "bytes": 2012,
+      "sha256": "182e2276b6ae00a4b4caadbe90a39b6455febff69bf0086a791aaa7965345496"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/evidence/phase2/python-test-results.txt",
+      "bytes": 99,
+      "sha256": "95547bd513d9598acc6e1dd47d3036c9d5a4a01d3d8bd189e47168299b16a73b"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/evidence/phase2/delivery-manifest.json",
+      "bytes": 24383,
+      "sha256": "30b67bfd68eed1dc8637c6744885081123ef84b303c45123809edeef1a1abd1f"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/evidence/phase2/browser-report.json",
+      "bytes": 2331,
+      "sha256": "f3e1db1cf7d3dadf5eeb5cbf15791b65ae89b9809e840bf31a5ee0d4b4ba15de"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/evidence/phase2/syntax-check.txt",
+      "bytes": 197,
+      "sha256": "7132d9d2699bdca174a3d0940f09fb439ee060a420824ac1acf9259757477f60"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/evidence/phase2/live-ui-report.json",
+      "bytes": 388,
+      "sha256": "8ab7c0a16f973566fe6b68d2334dd6a626a5710dcbb13953cacd08ba12972af0"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/evidence/phase2/review-page.png",
+      "bytes": 129492,
+      "sha256": "2df075d76f3966b69959aa7ed94d1a811166067d4e7e4b827698180138006ee7"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/evidence/phase2/consent-screen.png",
+      "bytes": 225059,
+      "sha256": "c44ae9568cbee6044ae87bccdef0418e33fcff752a8cd49141724b2059c2214c"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/evidence/phase2/model-smoke.json",
+      "bytes": 715,
+      "sha256": "7d77ac9f9c63f07d032f38aeea099d549274d4df0ac60f01fa904981c8bdcb06"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/evidence/phase2/verification-summary.json",
+      "bytes": 395,
+      "sha256": "b6272ac8f231d20bd16b640f0554a087b168cf2f0bfa20ba7b9f58bbdeacbfb8"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/output/pdf/FairGrade-Sprint3-Evaluation-Summary.pdf",
+      "bytes": 45768,
+      "sha256": "4f7a25e7a0722bdca4850bfffcdfef15cb64df939fe02f5d0bf3459a5712dd9a"
+    },
+    {
+      "path": "Khaled_Code/FairGrade-Proctoring/docs/design/proctoring-architecture.png",
+      "bytes": 346017,
+      "sha256": "0c0889fb8560e3e63017c036cf3c24fbcab198f80878048cdadcdd2b3b4c1b0f"
+    }
+  ]
+}

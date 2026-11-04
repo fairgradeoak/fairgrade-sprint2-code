@@ -1,0 +1,30 @@
+{
+  "name": "fairgrade-proctoring",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server/server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "setup:models": "node scripts/setup-models.mjs",
+    "check": "node scripts/check.mjs",
+    "test:browser": "node scripts/browser-test.mjs",
+    "test:models": "node scripts/model-smoke.mjs",
+    "test:soak": "node scripts/soak-test.mjs",
+    "verify:models": "node scripts/verify-models.mjs",
+    "test:python": "python -m pytest tests/test_backend.py tests/test_evaluation.py -q",
+    "evaluate": "python scripts/summarize.py evaluation/trials.json --output evaluation/phase3-summary.json",
+    "package:backend": "python scripts/package-backend.py",
+    "test:aws": "node scripts/aws-smoke.mjs",
+    "test:live-ui": "node scripts/live-ui-test.mjs",
+    "test:module": "node scripts/module-test.mjs",
+    "test:localhost": "node scripts/localhost-config-test.mjs"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.3.14",
+    "playwright": "1.56.1"
+  }
+}

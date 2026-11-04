@@ -1,0 +1,34 @@
+{
+  "mode": "live",
+  "apiBase": "https://gnlnv6dd5j.execute-api.eu-north-1.amazonaws.com",
+  "uploadOrigins": [
+    "https://s3.eu-north-1.amazonaws.com"
+  ],
+  "playbackOrigins": [
+    "https://s3.eu-north-1.amazonaws.com"
+  ],
+  "retentionDays": 7,
+  "thresholds": {
+    "phoneMs": 2000,
+    "secondFaceMs": 1500,
+    "mismatchMs": 3000,
+    "noFaceMs": 3000,
+    "cooldownMs": 30000,
+    "maxSampleGapMs": 1500,
+    "identityDistance": 0.55,
+    "objectConfidence": 0.55
+  },
+  "policyVersion": "fairgrade-2026-10",
+  "auth": {
+    "domain": "https://eu-north-19fsulifsf.auth.eu-north-1.amazoncognito.com",
+    "clientId": "l648ijjqhpk1pt5bhv8b0us0b",
+    "redirectUris": {
+      "/": "http://localhost:3000/",
+      "/review.html": "http://localhost:3000/review.html"
+    },
+    "scopes": [
+      "openid"
+    ]
+  },
+  "examId": "f36e76ba-cbec-4943-ac1a-da15dd9031e8"
+}

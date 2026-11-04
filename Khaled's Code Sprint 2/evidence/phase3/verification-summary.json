@@ -1,0 +1,20 @@
+{
+  "preparedAt": "2026-10-31",
+  "contract": "Omar supplied deployed API",
+  "apiBase": "https://gnlnv6dd5j.execute-api.eu-north-1.amazonaws.com",
+  "clientTestsPassed": 22,
+  "statisticsTestsPassed": 5,
+  "legacySupersededBackendTestsPassed": 8,
+  "browserChecks": {
+    "browser-report.json": 9,
+    "live-ui-report.json": 5,
+    "module-report.json": 13
+  },
+  "totalBrowserChecks": 27,
+  "modelAssets": "actual inference under nested path without COOP/COEP or SharedArrayBuffer",
+  "thresholdsChanged": false,
+  "realCameraAWS": "not_performed_missing_accounts_and_camera",
+  "humanTrials": "not_performed_missing_participants",
+  "targetLaptopPerformance": "not_measured",
+  "oldBackendProposal": "superseded_do_not_deploy"
+}

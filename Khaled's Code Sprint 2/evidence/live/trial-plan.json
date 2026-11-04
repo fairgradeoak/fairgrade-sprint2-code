@@ -1,0 +1,26 @@
+{
+  "status": "awaiting_participant_scheduling",
+  "improvementWindow": {
+    "from": "2026-11-02",
+    "through": "2026-11-14"
+  },
+  "scheduledDates": [],
+  "required": {
+    "minimumPeople": 3,
+    "normalSessions": 5,
+    "normalMinutesPerSession": 10,
+    "deliberateCases": {
+      "phone": 10,
+      "second_face": 10,
+      "no_face": 10,
+      "identity_mismatch": 5
+    }
+  },
+  "measured": {
+    "people": null,
+    "normalSessions": null,
+    "normalMinutes": null,
+    "deliberateCases": null
+  },
+  "note": "Window requested in the brief; no participant appointments have been booked. Add only completed reviewed trials to evaluation/trials.json; never add planned cases as observations."
+}

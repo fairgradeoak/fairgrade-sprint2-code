@@ -1,0 +1,14 @@
+node_modules/
+data/
+test-results/
+__pycache__/
+*.pyc
+.venv/
+.env*
+!.env.example
+dist/
+evidence/private/
+evaluation/private/
+infra/.terraform/
+infra/*.tfstate*
+infra/*.tfvars

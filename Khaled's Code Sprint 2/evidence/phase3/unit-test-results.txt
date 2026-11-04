@@ -1,0 +1,35 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> fairgrade-proctoring@0.3.0 test
+> node --test tests/*.test.mjs
+
+✔ PKCE sends S256 challenge and keeps only transaction in session storage (6.58339ms)
+✔ OAuth callback requires matching unexpired state and consumes transaction (1.053994ms)
+✔ token exchange uses public client and memory-only tokens; parallel refresh single-flight (6.620665ms)
+✔ phone trigger requires sustained observations, resets on flicker, and latches (1.639228ms)
+✔ no-face requires three seconds and unknown inference resets its timer (0.258361ms)
+✔ stale or duplicate samples cannot manufacture sustained detection (0.275446ms)
+✔ independent reasons and per-reason cooldown (0.199444ms)
+✔ identity unknown is not a mismatch, and equality is a match (0.2239ms)
+✔ invalid trigger configuration and reasons are rejected (0.32566ms)
+✔ rolling selection covers exactly requested pre/post timestamps with explicit tolerance (3.076688ms)
+✔ short pre-roll, missing post-roll and internal gaps are marked partial (3.890719ms)
+✔ rolling buffer enforces memory and time limits and clears (0.79335ms)
+✔ YOLO decodes both layouts, undoes letterboxing, and keeps COCO phone/person (0.835011ms)
+✔ YOLO NMS is class-aware and unsupported schemas fail clearly (0.466217ms)
+✔ POST upload: every signed field preserved, file last, bearer only on API; event wrapper unwrapped (5.854214ms)
+✔ failed uploads never log events; three attempts get fresh tickets (3.121104ms)
+✔ expired POST policy renews; ordinary S3 403 stops (3.416799ms)
+✔ client rejects synthetic live uploads, empty/oversize files and unsupported types (12.869171ms)
+✔ status and error message preserved for 409/410; list has no cursor requirement (1.658927ms)
+✔ expired access token refreshes once; persistent unauthorized stops (0.354523ms)
+✔ no token and malformed UUID fail before network; fetch global receiver retained (0.452437ms)
+✔ local POST pipeline: policy, roles, upload verification, idempotency, review and retention (83.665396ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 22
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 191.262833

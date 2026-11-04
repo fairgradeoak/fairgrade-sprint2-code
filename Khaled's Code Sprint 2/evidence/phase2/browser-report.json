@@ -1,0 +1,78 @@
+{
+  "at": "2026-10-30T12:26:18.955Z",
+  "browser": "141.0.7390.37",
+  "checks": [
+    "Consent required before monitoring",
+    "Preroll warms before monitoring",
+    "Trigger → encoding → local upload → event",
+    "15 second evidence window, pre/post timing within tolerance",
+    "Stop clears buffer",
+    "Recorded WebM decodes",
+    "Instructor review persists across reload",
+    "Mobile review layout fits viewport",
+    "No uncaught browser exceptions"
+  ],
+  "event": {
+    "eventId": "3a4dd145-d8cd-4f3f-bb10-d7253caba8a7",
+    "examId": "11111111-1111-4111-8111-111111111111",
+    "reasons": [
+      "phone"
+    ],
+    "triggeredAt": "2026-10-30T12:25:55.862Z",
+    "triggerMonotonicMs": 10008.699999999953,
+    "sustainedMs": 2006.6000000000931,
+    "synthetic": true,
+    "consentVersion": "demo-v2",
+    "consentedAt": "2026-10-30T12:25:46.212Z",
+    "thresholds": {
+      "phoneMs": 2000,
+      "secondFaceMs": 1500,
+      "mismatchMs": 3000,
+      "noFaceMs": 3000,
+      "cooldownMs": 30000,
+      "maxSampleGapMs": 1500,
+      "identityDistance": 0.55,
+      "objectConfidence": 0.55
+    },
+    "clip": {
+      "requestedStartMs": 2508.6999999999534,
+      "requestedEndMs": 17508.699999999953,
+      "sourceFirstMs": 2259.8000000000466,
+      "sourceLastMs": 17535.699999999953,
+      "maxGapMs": 100.5,
+      "complete": true,
+      "preMs": 7500,
+      "postMs": 7500,
+      "toleranceMs": 250,
+      "sourceDurationMs": 15000,
+      "encodedElapsedMs": 15002.600000000093,
+      "maxReplayGapMs": 48.5,
+      "encoding": "timestamped-jpeg-buffer-to-mediarecorder",
+      "encodingToleranceMs": 500,
+      "width": 640,
+      "height": 480,
+      "audio": false,
+      "targetFps": 10
+    },
+    "objectKey": "3a4dd145-d8cd-4f3f-bb10-d7253caba8a7.clip",
+    "contentType": "video/webm",
+    "sizeBytes": 150953,
+    "checksumSha256": "QEldNWqbWj5iKRJWemBEKYUHkPSYcR0PZJ//krnDlxs=",
+    "studentId": "22222222-2222-4222-8222-222222222222",
+    "createdAt": "2026-10-30T12:26:18.426Z",
+    "reviewed": false,
+    "instructorDecision": null,
+    "reviewedAt": null,
+    "reviewerId": null,
+    "version": 0,
+    "clipDeleted": false
+  },
+  "video": {
+    "width": 640,
+    "height": 480
+  },
+  "errors": [],
+  "limitations": [
+    "Synthetic signals and local storage only; not webcam accuracy or AWS"
+  ]
+}

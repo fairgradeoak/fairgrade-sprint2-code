@@ -1,0 +1,224 @@
+{
+  "status": "not_run",
+  "rounds": {
+    "baseline": {
+      "configurations": [],
+      "participants": 0,
+      "sessions": 0,
+      "allFlags": {
+        "count": 0,
+        "hours": 0,
+        "perHour": null,
+        "ci95": null
+      },
+      "falseFlags": {
+        "count": 0,
+        "hours": 0,
+        "perHour": null,
+        "ci95": null
+      },
+      "falseFlagsByReason": {
+        "phone": {
+          "count": 0,
+          "hours": 0,
+          "perHour": null,
+          "ci95": null
+        },
+        "second_face": {
+          "count": 0,
+          "hours": 0,
+          "perHour": null,
+          "ci95": null
+        },
+        "identity_mismatch": {
+          "count": 0,
+          "hours": 0,
+          "perHour": null,
+          "ci95": null
+        },
+        "no_face": {
+          "count": 0,
+          "hours": 0,
+          "perHour": null,
+          "ci95": null
+        }
+      },
+      "detection": {
+        "phone": {
+          "success": 0,
+          "total": 0,
+          "rate": null,
+          "ci95": null
+        },
+        "second_face": {
+          "success": 0,
+          "total": 0,
+          "rate": null,
+          "ci95": null
+        },
+        "identity_mismatch": {
+          "success": 0,
+          "total": 0,
+          "rate": null,
+          "ci95": null
+        },
+        "no_face": {
+          "success": 0,
+          "total": 0,
+          "rate": null,
+          "ci95": null
+        }
+      }
+    },
+    "tuned": {
+      "configurations": [],
+      "participants": 0,
+      "sessions": 0,
+      "allFlags": {
+        "count": 0,
+        "hours": 0,
+        "perHour": null,
+        "ci95": null
+      },
+      "falseFlags": {
+        "count": 0,
+        "hours": 0,
+        "perHour": null,
+        "ci95": null
+      },
+      "falseFlagsByReason": {
+        "phone": {
+          "count": 0,
+          "hours": 0,
+          "perHour": null,
+          "ci95": null
+        },
+        "second_face": {
+          "count": 0,
+          "hours": 0,
+          "perHour": null,
+          "ci95": null
+        },
+        "identity_mismatch": {
+          "count": 0,
+          "hours": 0,
+          "perHour": null,
+          "ci95": null
+        },
+        "no_face": {
+          "count": 0,
+          "hours": 0,
+          "perHour": null,
+          "ci95": null
+        }
+      },
+      "detection": {
+        "phone": {
+          "success": 0,
+          "total": 0,
+          "rate": null,
+          "ci95": null
+        },
+        "second_face": {
+          "success": 0,
+          "total": 0,
+          "rate": null,
+          "ci95": null
+        },
+        "identity_mismatch": {
+          "success": 0,
+          "total": 0,
+          "rate": null,
+          "ci95": null
+        },
+        "no_face": {
+          "success": 0,
+          "total": 0,
+          "rate": null,
+          "ci95": null
+        }
+      }
+    },
+    "integrated": {
+      "configurations": [],
+      "participants": 0,
+      "sessions": 0,
+      "allFlags": {
+        "count": 0,
+        "hours": 0,
+        "perHour": null,
+        "ci95": null
+      },
+      "falseFlags": {
+        "count": 0,
+        "hours": 0,
+        "perHour": null,
+        "ci95": null
+      },
+      "falseFlagsByReason": {
+        "phone": {
+          "count": 0,
+          "hours": 0,
+          "perHour": null,
+          "ci95": null
+        },
+        "second_face": {
+          "count": 0,
+          "hours": 0,
+          "perHour": null,
+          "ci95": null
+        },
+        "identity_mismatch": {
+          "count": 0,
+          "hours": 0,
+          "perHour": null,
+          "ci95": null
+        },
+        "no_face": {
+          "count": 0,
+          "hours": 0,
+          "perHour": null,
+          "ci95": null
+        }
+      },
+      "detection": {
+        "phone": {
+          "success": 0,
+          "total": 0,
+          "rate": null,
+          "ci95": null
+        },
+        "second_face": {
+          "success": 0,
+          "total": 0,
+          "rate": null,
+          "ci95": null
+        },
+        "identity_mismatch": {
+          "success": 0,
+          "total": 0,
+          "rate": null,
+          "ci95": null
+        },
+        "no_face": {
+          "success": 0,
+          "total": 0,
+          "rate": null,
+          "ci95": null
+        }
+      }
+    }
+  },
+  "identity": {
+    "status": "insufficient_data",
+    "aliases": 0,
+    "recommendedThreshold": null
+  },
+  "interpretation": [
+    "Flags/hour uses armed monitoring exposure only, excluding enrollment and warmup",
+    "Poisson confidence intervals assume independent events at constant rate; clustering by participant can make intervals optimistic",
+    "Wilson intervals use deliberate attempts, not frames; report unknown/aborted attempts separately",
+    "Changing cooldowns affects flags/hour: compare configurations and detection rates together",
+    "Zero observations is not zero error; no-data rates remain null"
+  ]
+}

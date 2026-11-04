@@ -1,0 +1,49 @@
+{
+  "status": "not_run",
+  "sessionStartedAt": null,
+  "sessionEndedAt": null,
+  "armedDurationSeconds": null,
+  "laptop": {
+    "manufacturer": null,
+    "model": null,
+    "cpu": null,
+    "ramGiB": null,
+    "gpu": null,
+    "os": null,
+    "browser": null,
+    "powerMode": null
+  },
+  "allDetectorsActive": null,
+  "fps": {
+    "source": "cameraFps from exported scalar diagnostics, not detector throughput",
+    "average": null,
+    "minimum": null,
+    "sampleCount": null
+  },
+  "checkpoints": [
+    {
+      "elapsedMinutes": 0,
+      "cpuPercent": null,
+      "cpuScope": "Record whether whole laptop or browser process",
+      "browserTabMemoryMiB": null,
+      "memoryTool": null
+    },
+    {
+      "elapsedMinutes": 10,
+      "cpuPercent": null,
+      "cpuScope": "Record whether whole laptop or browser process",
+      "browserTabMemoryMiB": null,
+      "memoryTool": null
+    },
+    {
+      "elapsedMinutes": 20,
+      "cpuPercent": null,
+      "cpuScope": "Record whether whole laptop or browser process",
+      "browserTabMemoryMiB": null,
+      "memoryTool": null
+    }
+  ],
+  "realFlags": [],
+  "diagnosticsFile": null,
+  "note": "Need 20 minutes and at least 3 real flags. CPU and browser tab/process memory must be measured on the target laptop; JS heap is not total tab memory."
+}

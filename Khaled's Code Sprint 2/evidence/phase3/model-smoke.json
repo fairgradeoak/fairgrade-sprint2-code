@@ -1,0 +1,59 @@
+{
+  "at": "2026-10-31T02:02:53.652Z",
+  "browser": "141.0.7390.37",
+  "assetRequests": [
+    "/exam/assets/proctor/core/detectors.mjs",
+    "/exam/assets/proctor/workers/face-worker.mjs",
+    "/exam/assets/proctor/vendor/face-api.min.js",
+    "/exam/assets/proctor/workers/object-worker.js",
+    "/exam/assets/proctor/vendor/vision_bundle.mjs",
+    "/exam/assets/proctor/vendor/tf.min.js",
+    "/exam/assets/proctor/vendor/mediapipe-wasm/vision_wasm_internal.js",
+    "/exam/assets/proctor/vendor/mediapipe-wasm/vision_wasm_internal.wasm",
+    "/exam/assets/proctor/models/identity/tiny_face_detector_model-weights_manifest.json",
+    "/exam/assets/proctor/models/identity/face_landmark_68_tiny_model-weights_manifest.json",
+    "/exam/assets/proctor/models/identity/face_recognition_model-weights_manifest.json",
+    "/exam/assets/proctor/models/identity/tiny_face_detector_model-shard1",
+    "/exam/assets/proctor/models/identity/face_landmark_68_tiny_model-shard1",
+    "/exam/assets/proctor/models/identity/face_recognition_model-shard1",
+    "/exam/assets/proctor/models/identity/face_recognition_model-shard2",
+    "/exam/assets/proctor/core/yolo.mjs",
+    "/exam/assets/proctor/models/face_detector.tflite",
+    "/exam/assets/proctor/models/yolov8n/model.json",
+    "/exam/assets/proctor/models/yolov8n/group1-shard1of4.bin",
+    "/exam/assets/proctor/models/yolov8n/group1-shard2of4.bin",
+    "/exam/assets/proctor/models/yolov8n/group1-shard3of4.bin",
+    "/exam/assets/proctor/models/yolov8n/group1-shard4of4.bin",
+    "/exam/assets/proctor/vendor/mediapipe-wasm/vision_wasm_internal.js",
+    "/exam/assets/proctor/vendor/mediapipe-wasm/vision_wasm_internal.wasm",
+    "/exam/assets/proctor/models/face_landmarker.task"
+  ],
+  "loadMs": 1111.6999999999534,
+  "results": {
+    "identity": {
+      "faceCount": 0,
+      "latencyMs": 788.8999999999069
+    },
+    "face": {
+      "type": "result",
+      "time": 1990.5999999998603,
+      "latencyMs": 118.5,
+      "boxes": [],
+      "faceCount": 0,
+      "landmarks": []
+    },
+    "object": {
+      "type": "result",
+      "time": 1990.5999999998603,
+      "boxes": [],
+      "latencyMs": 8964
+    }
+  },
+  "crossOriginIsolated": false,
+  "sharedArrayBufferAvailable": false,
+  "limitations": [
+    "Real model loading and inference on a blank canvas only",
+    "Not webcam testing or evidence of detection accuracy",
+    "Headless cloud machine, not target laptop"
+  ]
+}

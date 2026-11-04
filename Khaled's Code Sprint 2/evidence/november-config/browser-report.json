@@ -1,0 +1,13 @@
+{
+  "at": "2026-11-03T06:19:45.042Z",
+  "passed": 4,
+  "checks": [
+    "/ shipped config and demo/live exam switching",
+    "/ intercepted PKCE callback, memory-only token and bearer API request",
+    "/review.html shipped config and demo/live exam switching",
+    "/review.html intercepted PKCE callback, memory-only token and bearer API request"
+  ],
+  "limitations": [
+    "Cognito and API responses intercepted. No real sign-in, webcam, AWS upload or participant trial."
+  ]
+}

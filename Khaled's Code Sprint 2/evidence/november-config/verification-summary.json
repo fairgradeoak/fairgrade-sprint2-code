@@ -1,0 +1,34 @@
+{
+  "verifiedAt": "2026-11-03",
+  "nodeTests": {
+    "passed": 25,
+    "failed": 0
+  },
+  "pythonTests": {
+    "passed": 13,
+    "failed": 0,
+    "scope": "5 statistical evaluation tests; 8 superseded-backend regression tests, not live RDS."
+  },
+  "browserChecks": {
+    "passed": 31,
+    "failed": 0,
+    "suites": {
+      "syntheticPipeline": 9,
+      "mockPolicyAuth": 5,
+      "embeddedModule": 13,
+      "shippedLocalhostConfigWithMockAuthApi": 4
+    }
+  },
+  "modelAssetHashes": {
+    "verified": 21
+  },
+  "thresholdsChanged": false,
+  "backendDeployed": false,
+  "teammateSources": {
+    "unchangedTrackedFiles": 14
+  },
+  "liveCameraAwsRun": "not_run",
+  "humanTrials": "not_run",
+  "targetLaptopPerformance": "not_run",
+  "note": "Browser tests use synthetic camera/model signals or intercepted services. No private credentials or real participant observations were supplied. Historical PDFs/reports retain their own dates and counts."
+}

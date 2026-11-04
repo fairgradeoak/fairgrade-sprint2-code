@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-30T12:23:55.417Z",
+  "checks": [
+    "PKCE callback exchange and URL cleanup",
+    "Tokens not stored in local/session storage",
+    "Bearer header on policy request",
+    "Server retention text displayed before consent",
+    "Policy change clears consent before camera access"
+  ],
+  "limitations": [
+    "OAuth and policy endpoints mocked; not real Cognito/AWS"
+  ]
+}

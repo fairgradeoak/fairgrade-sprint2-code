@@ -1,0 +1,33 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> fairgrade-proctoring@0.2.0 test
+> node --test tests/*.test.mjs
+
+✔ PKCE sends S256 challenge and keeps only transaction in session storage (4.928989ms)
+✔ OAuth callback requires matching unexpired state and consumes transaction (0.777386ms)
+✔ token exchange uses public client and memory-only tokens; parallel refresh single-flight (3.465344ms)
+✔ phone trigger requires sustained observations, resets on flicker, and latches (1.210675ms)
+✔ no-face requires three seconds and unknown inference resets its timer (0.171928ms)
+✔ stale or duplicate samples cannot manufacture sustained detection (0.21294ms)
+✔ independent reasons and per-reason cooldown (0.130075ms)
+✔ identity unknown is not a mismatch, and equality is a match (0.188933ms)
+✔ invalid trigger configuration and reasons are rejected (0.414552ms)
+✔ rolling selection covers exactly requested pre/post timestamps with explicit tolerance (2.603883ms)
+✔ short pre-roll, missing post-roll and internal gaps are marked partial (2.923733ms)
+✔ rolling buffer enforces memory and time limits and clears (0.383896ms)
+✔ YOLO decodes both layouts, undoes letterboxing, and keeps COCO phone/person (0.847881ms)
+✔ YOLO NMS is class-aware and unsupported schemas fail clearly (0.354973ms)
+✔ bearer only goes to API; upload succeeds before logging (13.558605ms)
+✔ failed upload never creates event, retries bounded, unsafe origins rejected (3.569181ms)
+✔ completed upload retry skips PUT and logs same event ID (1.013249ms)
+✔ expired access token refreshes once; persistent unauthorized stops (0.594741ms)
+✔ no token and malformed UUID fail before network; fetch global receiver retained (0.544977ms)
+✔ local pipeline: role checks, upload verification, idempotency, review persistence, retention (82.93699ms)
+ℹ tests 20
+ℹ suites 0
+ℹ pass 20
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 168.202364

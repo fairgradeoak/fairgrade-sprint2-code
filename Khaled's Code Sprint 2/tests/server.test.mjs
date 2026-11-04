@@ -1,0 +1,25 @@
+import test from'node:test';import assert from'node:assert/strict';import{mkdtemp,rm,readFile,writeFile,utimes}from'node:fs/promises';import{tmpdir}from'node:os';import{join}from'node:path';import{createDemoServer}from'../server/server.mjs';
+const E='44444444-4444-4444-8444-444444444444',X='11111111-1111-4111-8111-111111111111';
+test('local POST pipeline: policy, roles, upload verification, idempotency, review and retention',async t=>{
+ const dataDir=await mkdtemp(join(tmpdir(),'fairgrade-test-'));let time=Date.now();const app=await createDemoServer({dataDir,now:()=>time});await new Promise(r=>app.server.listen(0,'127.0.0.1',r));
+ t.after(async()=>{await new Promise(r=>app.server.close(r));await rm(dataDir,{recursive:true,force:true});});const origin=`http://127.0.0.1:${app.server.address().port}`;
+ const request=(path,{role='student',method='GET',body,extra={}}={})=>fetch(origin+path,{method,headers:{'X-Demo-Role':role,'Content-Type':'application/json',...extra},...(body?{body:JSON.stringify(body)}:{})});
+ assert.equal((await(await request('/api/policy')).json()).retentionDays,7);assert.equal((await request('/api/events?examId='+X)).status,403);
+ assert.equal((await request('/api/events?examId='+X,{role:'instructor',extra:{Origin:'https://evil.example'}})).status,403);
+ const orphan=join(dataDir,'clips','orphan.clip');await writeFile(orphan,'x');await utimes(orphan,new Date(time-600000),new Date(time-600000));await app.cleanup();await assert.rejects(readFile(orphan));
+ const event={eventId:E,examId:X,contentType:'video/webm',sizeBytes:5,reasons:['phone'],triggeredAt:new Date(time).toISOString(),synthetic:true};
+ assert.equal((await request('/api/events',{method:'POST',body:event})).status,400);
+ const ticket=await(await request('/api/clips/presign',{method:'POST',body:{eventId:E,examId:X,contentType:'video/webm'}})).json();
+ const form=new FormData();for(const[k,v]of Object.entries(ticket.fields))form.append(k,v);form.append('file',new Blob(['video'],{type:'video/webm'}),'clip.webm');
+ assert.equal((await fetch(ticket.uploadUrl,{method:'POST',body:form})).status,204);event.objectKey=ticket.objectKey;
+ const logged=await request('/api/events',{method:'POST',body:event});assert.equal(logged.status,201);assert.equal((await logged.json()).event.studentEmail,'demo-student@example.test');
+ assert.equal((await request('/api/events',{method:'POST',body:event})).status,200);
+ assert.equal((await request('/api/events',{method:'POST',body:{...event,reasons:['no_face']}})).status,409);
+ assert.equal((await(await request('/api/events?examId='+X,{role:'instructor'})).json()).events.length,1);
+ const route='/api/events/'+E;assert.equal((await request(route+'/review',{method:'PATCH',body:{decision:'confirmed',version:0}})).status,403);
+ const saved=await request(route+'/review',{role:'instructor',method:'PATCH',body:{decision:'confirmed',version:0}});assert.equal((await saved.json()).version,1);
+ assert.equal((await request(route+'/review',{role:'instructor',method:'PATCH',body:{decision:'dismissed',version:0}})).status,409);
+ const playback=await(await request(route+'/playback',{role:'instructor'})).json();assert.equal(await(await fetch(playback.url)).text(),'video');
+ time+=7*86400000+1;await app.cleanup();assert.equal((await request(route+'/playback',{role:'instructor'})).status,410);
+ assert.equal((await(await request('/api/events?examId='+X,{role:'instructor'})).json()).events[0].clipExpired,true);await assert.rejects(readFile(join(dataDir,'clips',ticket.objectKey)));
+});

@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-03T06:20:55.020Z",
+  "checks": [
+    "renderConsent returns approved policy/version and timestamp without global IDs",
+    "Live review uses email, no synthetic label, missing cursor ends list",
+    "Playback 410 displays exact retention message",
+    "Review 409 reloads list and announces conflict",
+    "Full returned EVENT replaces card; next review uses new version",
+    "Host-supplied consent/token and container start a session",
+    "Concurrent start rejected",
+    "Stop immediately releases camera, flushes pending partial clip, and resolves after event logging",
+    "Diagnostics include trigger-to-log latency and stopped exposure",
+    "Flush rejection retains failed clip and blocks a new session",
+    "Explicit retry recovers upload; repeated stop then resolves",
+    "Repeated stop is safe",
+    "Module and CSS work under a nested path without page IDs or uncaught errors"
+  ],
+  "assetRequests": [
+    "/exam/assets/proctor/proctoring-module.mjs",
+    "/exam/assets/proctor/core/api.mjs",
+    "/exam/assets/proctor/core/ids.mjs",
+    "/exam/assets/proctor/core/triggers.mjs",
+    "/exam/assets/proctor/core/recorder.mjs",
+    "/exam/assets/proctor/core/detectors.mjs",
+    "/exam/assets/proctor/core/telemetry.mjs",
+    "/exam/assets/proctor/core/window.mjs",
+    "/exam/assets/proctor/module.css",
+    "/exam/assets/proctor/module.css",
+    "/exam/assets/proctor/module.css",
+    "/exam/assets/proctor/module.css",
+    "/exam/assets/proctor/module.css"
+  ],
+  "partialClip": {
+    "requestedStartMs": 20184.699999999953,
+    "requestedEndMs": 35184.69999999995,
+    "sourceFirstMs": 19941.79999999993,
+    "sourceLastMs": 27653.900000000023,
+    "maxGapMs": 129,
+    "complete": false,
+    "preMs": 7500,
+    "postMs": 0,
+    "toleranceMs": 250,
+    "sourceDurationMs": 7469.20000000007,
+    "encodedElapsedMs": 7472.5,
+    "maxReplayGapMs": 109.69999999995343,
+    "encoding": "timestamped-jpeg-buffer-to-mediarecorder",
+    "encodingToleranceMs": 500,
+    "width": 640,
+    "height": 480,
+    "audio": false,
+    "targetFps": 10
+  },
+  "limitations": [
+    "Mock API, synthetic camera stream, stubbed detector signals",
+    "Not a real-camera AWS or participant trial"
+  ]
+}

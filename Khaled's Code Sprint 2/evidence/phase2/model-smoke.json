@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-30T12:23:59.914Z",
+  "browser": "141.0.7390.37",
+  "loadMs": 712.1999999999534,
+  "results": {
+    "identity": {
+      "faceCount": 0,
+      "latencyMs": 759.8000000000466
+    },
+    "face": {
+      "type": "result",
+      "time": 1559.8000000000466,
+      "latencyMs": 128.39999999990687,
+      "boxes": [],
+      "faceCount": 0,
+      "landmarks": []
+    },
+    "object": {
+      "type": "result",
+      "time": 1559.8000000000466,
+      "boxes": [],
+      "latencyMs": 9863.300000000047
+    }
+  },
+  "limitations": [
+    "Real model loading and inference on a blank canvas only",
+    "Not webcam testing or evidence of detection accuracy",
+    "Headless cloud machine, not target laptop"
+  ]
+}

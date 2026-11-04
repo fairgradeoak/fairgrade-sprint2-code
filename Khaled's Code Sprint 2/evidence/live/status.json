@@ -1,0 +1,19 @@
+{
+  "status": "not_run_requires_local_operator",
+  "updatedAt": "2026-11-03",
+  "environmentConfiguration": "Public Cognito settings, localhost origin, exam ID and accounts supplied by Omar in the attached brief; installed. Backend success reported by Omar, not independently observed here.",
+  "apiBase": "https://gnlnv6dd5j.execute-api.eu-north-1.amazonaws.com",
+  "browserOrigin": "http://localhost:3000",
+  "examId": "f36e76ba-cbec-4943-ac1a-da15dd9031e8",
+  "remainingRequirements": [
+    "Private account passwords entered by Khaled directly into Cognito",
+    "Target laptop with physical webcam",
+    "Consenting participants with written consent"
+  ],
+  "liveHttpSteps": [],
+  "realCameraScreenshots": [],
+  "humanTrialCounts": null,
+  "targetLaptopModel": null,
+  "failure": null,
+  "note": "Set passed only after every required step has real evidence. No synthetic or mock result is real-camera AWS evidence. Do not include tokens, passwords, signed URLs, form credentials, or video bodies in this file."
+}
