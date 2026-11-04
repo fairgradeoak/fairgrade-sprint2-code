@@ -1,0 +1,131 @@
+{
+  "fetchedAt": "2026-10-30T12:06:12.743Z",
+  "files": [
+    {
+      "file": "vendor/vision_bundle.mjs",
+      "source": "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.21/vision_bundle.mjs",
+      "bytes": 137735,
+      "sha256": "40f4123dfcd75cfa58add046919cc6f52fde66f009ff582997c09ba54c6ba27c"
+    },
+    {
+      "file": "vendor/mediapipe-wasm/vision_wasm_internal.js",
+      "source": "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.21/wasm/vision_wasm_internal.js",
+      "bytes": 204284,
+      "sha256": "4a97e2520ba506c680ecd6ba6acfb146888afa0e2746d57f205352bc6ebb82eb"
+    },
+    {
+      "file": "vendor/mediapipe-wasm/vision_wasm_internal.wasm",
+      "source": "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.21/wasm/vision_wasm_internal.wasm",
+      "bytes": 9574032,
+      "sha256": "f00ec4731faa23b3e714d00e88d4d10e2df5c0a427d3a2b4ae6e3526fdd14ef7"
+    },
+    {
+      "file": "vendor/mediapipe-wasm/vision_wasm_nosimd_internal.js",
+      "source": "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.21/wasm/vision_wasm_nosimd_internal.js",
+      "bytes": 204137,
+      "sha256": "927def7b465c51b86e4b3060f93646aca4e27121f4b8fc0483786e407ea9cf1f"
+    },
+    {
+      "file": "vendor/mediapipe-wasm/vision_wasm_nosimd_internal.wasm",
+      "source": "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.21/wasm/vision_wasm_nosimd_internal.wasm",
+      "bytes": 9448638,
+      "sha256": "3821ea9b1f7fb8c549ef2a064ef5c85750bf375c545a49fd6eea0df44a95f1f4"
+    },
+    {
+      "file": "vendor/tf.min.js",
+      "source": "https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.22.0/dist/tf.min.js",
+      "bytes": 1469843,
+      "sha256": "300dfae273d20b4046f46a06d735688f03675a807561e9bcb5f664eb2f3d2831"
+    },
+    {
+      "file": "vendor/face-api.min.js",
+      "source": "https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js",
+      "bytes": 663829,
+      "sha256": "5d66ec95338d7fcc365ce15481b8599baf4b6e22c9a624b76d4ca821a669a659"
+    },
+    {
+      "file": "models/face_detector.tflite",
+      "source": "https://storage.googleapis.com/mediapipe-models/face_detector/blaze_face_short_range/float16/1/blaze_face_short_range.tflite",
+      "bytes": 229746,
+      "sha256": "b4578f35940bf5a1a655214a1cce5cab13eba73c1297cd78e1a04c2380b0152f"
+    },
+    {
+      "file": "models/face_landmarker.task",
+      "source": "https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task",
+      "bytes": 3758596,
+      "sha256": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff"
+    },
+    {
+      "file": "models/identity/tiny_face_detector_model-weights_manifest.json",
+      "source": "https://raw.githubusercontent.com/justadudewhohacks/face-api.js/a86f011d72124e5fb93e59d5c4ab98f699dd5c9c/weights/tiny_face_detector_model-weights_manifest.json",
+      "bytes": 2953,
+      "sha256": "14c60659a31b6b7b1320077171b8f8adcb24ef0e62dde62ce603bcb49a1b49b5"
+    },
+    {
+      "file": "models/identity/tiny_face_detector_model-shard1",
+      "source": "https://raw.githubusercontent.com/justadudewhohacks/face-api.js/a86f011d72124e5fb93e59d5c4ab98f699dd5c9c/weights/tiny_face_detector_model-shard1",
+      "bytes": 193321,
+      "sha256": "b7503ce7df31039b1c43316a9b865cab6a70dd748cc602d3fa28b551503c3871"
+    },
+    {
+      "file": "models/identity/face_landmark_68_tiny_model-weights_manifest.json",
+      "source": "https://raw.githubusercontent.com/justadudewhohacks/face-api.js/a86f011d72124e5fb93e59d5c4ab98f699dd5c9c/weights/face_landmark_68_tiny_model-weights_manifest.json",
+      "bytes": 4441,
+      "sha256": "3c63b8984302c187b218d9ef5aa149ed8c2c7fa3fe54db078614692bc48d153c"
+    },
+    {
+      "file": "models/identity/face_landmark_68_tiny_model-shard1",
+      "source": "https://raw.githubusercontent.com/justadudewhohacks/face-api.js/a86f011d72124e5fb93e59d5c4ab98f699dd5c9c/weights/face_landmark_68_tiny_model-shard1",
+      "bytes": 77224,
+      "sha256": "b98e9f2f7da76f8a6dda9741a36ed485b224b889d552de2b2c1bb16217f67bfc"
+    },
+    {
+      "file": "models/identity/face_recognition_model-weights_manifest.json",
+      "source": "https://raw.githubusercontent.com/justadudewhohacks/face-api.js/a86f011d72124e5fb93e59d5c4ab98f699dd5c9c/weights/face_recognition_model-weights_manifest.json",
+      "bytes": 18303,
+      "sha256": "6619f4126f845c1f7857f39cbd79565f375734f46e0dd25d9602f8dc21cda9f5"
+    },
+    {
+      "file": "models/identity/face_recognition_model-shard1",
+      "source": "https://raw.githubusercontent.com/justadudewhohacks/face-api.js/a86f011d72124e5fb93e59d5c4ab98f699dd5c9c/weights/face_recognition_model-shard1",
+      "bytes": 4194304,
+      "sha256": "412566a2b8d814d84c60b8055ec5d3b3b2328ef7cd7853384e03ec3db7b053d8"
+    },
+    {
+      "file": "models/identity/face_recognition_model-shard2",
+      "source": "https://raw.githubusercontent.com/justadudewhohacks/face-api.js/a86f011d72124e5fb93e59d5c4ab98f699dd5c9c/weights/face_recognition_model-shard2",
+      "bytes": 2249728,
+      "sha256": "69350fdecd845c532e44dd8f7d0521c773505ef46b87cc34f46640a0cc334ecc"
+    },
+    {
+      "file": "models/yolov8n/model.json",
+      "source": "https://raw.githubusercontent.com/Hyuto/yolov8-tfjs/b6a8bc691c0c1897802373d7da65dc889af1f451/public/yolov8n_web_model/model.json",
+      "bytes": 144462,
+      "sha256": "91cca72c6b94911ba267fa09de6b8d53613248b456e9b1ed0e8c03eec603b1df"
+    },
+    {
+      "file": "models/yolov8n/group1-shard1of4.bin",
+      "source": "https://raw.githubusercontent.com/Hyuto/yolov8-tfjs/b6a8bc691c0c1897802373d7da65dc889af1f451/public/yolov8n_web_model/group1-shard1of4.bin",
+      "bytes": 4194304,
+      "sha256": "b09dad14420c388241471b521cbfeb4d44a20dafc551ccfeffa256c6d54d848f"
+    },
+    {
+      "file": "models/yolov8n/group1-shard2of4.bin",
+      "source": "https://raw.githubusercontent.com/Hyuto/yolov8-tfjs/b6a8bc691c0c1897802373d7da65dc889af1f451/public/yolov8n_web_model/group1-shard2of4.bin",
+      "bytes": 4194304,
+      "sha256": "1683261fe150b3004c21aaa483d1641c43fb8a1bd57a832b665986e92e532fc2"
+    },
+    {
+      "file": "models/yolov8n/group1-shard3of4.bin",
+      "source": "https://raw.githubusercontent.com/Hyuto/yolov8-tfjs/b6a8bc691c0c1897802373d7da65dc889af1f451/public/yolov8n_web_model/group1-shard3of4.bin",
+      "bytes": 4194304,
+      "sha256": "9ce29aaca944b9755c2fa54f4fc7e5428f987f25b11f103a0ee9c814270c116c"
+    },
+    {
+      "file": "models/yolov8n/group1-shard4of4.bin",
+      "source": "https://raw.githubusercontent.com/Hyuto/yolov8-tfjs/b6a8bc691c0c1897802373d7da65dc889af1f451/public/yolov8n_web_model/group1-shard4of4.bin",
+      "bytes": 194096,
+      "sha256": "998d3d7df768cae9b45f2e303a7b61d414026f75a8861f219347dffe0ef1582c"
+    }
+  ]
+}
