@@ -1,0 +1,71 @@
+name: Deploy FairGrade Backend
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "database/**"
+      - "**/*.md"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: "**/requirements.txt"
+
+      - name: Build packages
+        run: |
+          PIP="pip install --platform manylinux2014_x86_64 --only-binary=:all: --python-version 3.12 --implementation cp"
+          rm -rf build && mkdir -p build/router build/db build/post-confirmation
+
+          # Public router: routing, validation, roles and Ahmed's grader
+          $PIP -r create-exam/requirements.txt -t build/router
+          cp create-exam/*.py build/router/
+          cp -r grading/. build/router/
+
+          # Private data service (in VPC): database access and the Judge0 relay
+          $PIP -r db-service/requirements.txt -t build/db
+          cp db-service/*.py certs/global-bundle.pem build/db/
+          cp -r grading/fairgrade build/db/
+
+          # Cognito trigger (public, only needs boto3)
+          cp post-confirmation/*.py build/post-confirmation/
+
+      - name: Smoke test (stop if any import fails)
+        env:
+          GEMINI_API_KEY: dummy
+          GEMINI_MODEL: dummy
+        run: |
+          pip install boto3
+          for fn in router db post-confirmation; do
+            (cd build/$fn && python -c "import lambda_function" && echo "$fn imports OK")
+          done
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: eu-north-1
+
+      - name: Deploy Lambdas
+        run: |
+          deploy() {
+            (cd build/$1 && zip -qr ../../$1.zip . -x "*/__pycache__/*")
+            aws lambda update-function-code --function-name $2 --zip-file fileb://$1.zip > /dev/null
+            aws lambda wait function-updated --function-name $2
+            echo "Deployed $2"
+          }
+          deploy db FairGradeDB
+          deploy router CreateExam
+          deploy post-confirmation FairGradePostConfirmation
